@@ -345,3 +345,25 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+@media screen and (max-width: 480px) {
+  div.nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 1rem 6rem;
+}
+
+div.logo {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+div.hero-section {
+    padding: 5rem;
+}
+
+div.snapshot-box-content {
+    flex-direction: column;
+}
+}
